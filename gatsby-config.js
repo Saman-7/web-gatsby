@@ -9,4 +9,9 @@
  */
 module.exports = {
   plugins: [],
-}
+  siteMetadata: {
+    title: "Web Gatsby",
+    description: "Web Dev Portfolio",
+    copyright: "Copyright 2023 Web Gatsby",
+  },
+};
