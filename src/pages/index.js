@@ -1,5 +1,15 @@
-import * as React from "react"
+import * as React from "react";
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+const Home = () => {
+  return (
+    <section>
+      <div>
+        <h2>Design</h2>
+        <h3>Develop & Deploy</h3>
+        <p>UX designer & web developer based in Manchester.</p>
+      </div>
+    </section>
+  );
+};
+
+export default Home;
