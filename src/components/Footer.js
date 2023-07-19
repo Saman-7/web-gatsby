@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return <div>Copyright 2023 Web Warrior</div>;
+  return <footer>Copyright 2023 Web Warrior</footer>;
 };
 
 export default Footer;
