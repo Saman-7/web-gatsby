@@ -8,9 +8,14 @@
   color: white;
 }
 
+html,
 body {
-  min-height: 100vh;
+  min-height: 100%;
+}
+
+body {
   background: linear-gradient(135deg, #922be1, #2b096b);
+  background-repeat: none;
 }
 
 p {
@@ -21,13 +26,15 @@ p {
 .layout {
   max-width: 1200px;
   margin: 0 auto;
+  display: grid;
+  grid-template-rows: 15vh 80vh 5vh;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px auto;
+  margin: 40px 20px;
 }
 
 nav .links {
@@ -46,6 +53,6 @@ nav .links a:hover {
 
 footer {
   text-align: center;
-  margin: 40px auto;
   color: #bbb;
+  margin: auto;
 }
