@@ -27,7 +27,7 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 15vh 80vh 5vh;
+  grid-template-rows: 15vh minmax(80vh, auto) 5vh;
 }
 
 nav {
