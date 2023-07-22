@@ -1,0 +1,16 @@
+.details {
+  margin: 30px 100px;
+}
+
+.details h2 {
+  font-size: 3em;
+}
+
+.details h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.feature {
+  margin: 30px auto 20px;
+}
