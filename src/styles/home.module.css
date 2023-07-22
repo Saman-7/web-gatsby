@@ -1,13 +1,14 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 40px;
   text-align: center;
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
 .header h2 {
   font-size: 4em;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .header h3 {
@@ -18,13 +19,15 @@
 
 .btn {
   display: inline-block;
-  background-color: #c90179;
+  background-color: #ff3c00;
   padding: 10px 16px;
   margin-top: 20px;
   font-weight: 500;
   border-radius: 10px;
+  color: white;
 }
 
 .btn:hover {
-  background-color: #d42990;
+  background-color: #ff0000;
+  color: white;
 }

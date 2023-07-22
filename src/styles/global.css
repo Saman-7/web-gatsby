@@ -5,7 +5,7 @@
   margin: 0;
   font-family: "Hanken Grotesk", sans-serif;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 html,
@@ -14,7 +14,7 @@ body {
 }
 
 body {
-  background: linear-gradient(135deg, #922be1, #2b096b);
+  background: linear-gradient(135deg, #ffd700, #ffbb00);
   background-repeat: none;
 }
 
@@ -46,13 +46,14 @@ nav .links a {
   padding-bottom: 8px;
   font-weight: 400;
   border-bottom: 3px solid transparent;
+  font-size: 1.2em;
 }
 nav .links a:hover {
-  border-color: white;
+  border-color: rgba(0, 0, 0, 0.7);
 }
 
 footer {
   text-align: center;
-  color: #bbb;
+  color: #333;
   margin: auto;
 }

@@ -1,6 +1,10 @@
 import React from "react";
 import Img from "gatsby-image";
-import { details, feature } from "../styles/projects-details.module.css";
+import {
+  details,
+  feature,
+  innerHTML,
+} from "../styles/projects-details.module.css";
 import Layout from "../components/Layout";
 import { graphql } from "gatsby";
 
@@ -16,7 +20,7 @@ const ProjectsDetails = ({ data }) => {
         <div className={feature}>
           <Img fluid={featuredImg.childImageSharp.fluid} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <div className={innerHTML} dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout>
   );
