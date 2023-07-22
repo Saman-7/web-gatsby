@@ -1,8 +1,10 @@
 ---
-title: Project Two
-stack: HTML & CSS & Javascript
+title: Gaming Project Two
+stack: HTML & CSS
 slug: project-2
 date: 2023-02-01T00:00:00+00:00
+thumb: ../images/thumbs/gaming.png
+featuredImg: ../images/featured/gaming-banner.png
 ---
 
 ## Revolutionizing Sustainable Energy

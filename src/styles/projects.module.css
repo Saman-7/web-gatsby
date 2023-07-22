@@ -19,16 +19,17 @@
   margin: 80px 20px;
 }
 
-.projects div {
+.projects .item {
   padding: 30px 15px;
-  border: 2px solid #bdbdbd;
   border-radius: 25px;
 }
 
 .projects h3 {
   font-weight: 500;
+  margin-top: 20px;
 }
 
 .projects p {
   color: #ccc;
+  margin: 10px auto;
 }

@@ -1,8 +1,10 @@
 ---
-title: Project One
-stack: HTML & CSS
+title: Coffee Project One
+stack: HTML
 slug: project-1
 date: 2023-01-01T00:00:00+00:00
+thumb: ../images/thumbs/coffee.png
+featuredImg: ../images/featured/coffee-banner.png
 ---
 
 ## Revolutionizing Sustainable Energy

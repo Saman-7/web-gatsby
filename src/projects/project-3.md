@@ -1,8 +1,10 @@
 ---
-title: Project Three
-stack: HTML & CSS & Javascript & Typescript
+title: Food Project Three
+stack: HTML & CSS & Javascript
 slug: project-3
 date: 2023-03-01T00:00:00+00:00
+thumb: ../images/thumbs/food.png
+featuredImg: ../images/featured/food-banner.png
 ---
 
 ## Revolutionizing Sustainable Energy
